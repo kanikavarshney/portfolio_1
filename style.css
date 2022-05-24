@@ -2,9 +2,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black
 }
 
 .main{
+;
 }
 .name{
     font-size: 70px;
@@ -12,14 +14,17 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
+    color: white;
+    box-shadow:inset;
 
 }
-.qualities{
+#qualities{
     background: pink;
     height: 60px;
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
+    box-shadow: inset;
 
 }
 .para{
@@ -28,6 +33,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size:medium;
+    color: white;
 }
 .flex{
     display:flex;
@@ -43,26 +49,47 @@
     background-color:gainsboro;
     font-size:x-large;
     padding-top: 50px;
-    position: relative;
+    box-shadow: inset;
     
     
 }
 .html:hover{
     background-color:papayawhip;
 }
+.ani{
+    display: flex;
+    bottom: 30px;
+    gap: 10px;
+    padding-left: 200px;
+    margin-top: 60px;
+}
+p{
+  color: white;
+  padding-top: 18px;
+}
+span{
+    font-size: xx-large;
+    line-height: 46px;
+    display: inline-block;
+    display: none;
+    font-weight: bolder;
+}
+.a{
+    color: red;
+}
+.b{
+    color: green;
+}
+.c{
+    color: purple;
+}
+.d{
+    color: chartreuse;
+}
+.e{
+    color: blue;
+}
 
-@keyframes text{
-     0%{
-         color:black;
-         margin-bottom: -40px;
-     }
-     30%{
-         letter-spacing: 10px;
-         margin-bottom: -40px;
-     }
-
-     85%{
-         letter-spacing: 8px;
-         margin-bottom: -40px;
-     }
+.text-in{
+    display: block;
 }
