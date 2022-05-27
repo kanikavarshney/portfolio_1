@@ -8,7 +8,8 @@
     
 }
 body{
-    background-image:url(https://tse4.mm.bing.net/th?id=OIP.8BSxwB78dwqqHbNInqgMSgHaEo&pid=Api&P=0&w=260&h=162);
+    /*background-image:url(https://wallpapercave.com/wp/BWj5hjo.png);*/
+   background-image: url(https://cdnb.artstation.com/p/marketplace/presentation_assets/000/106/275/large/file.jpg?1552402354);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -103,7 +104,7 @@ body{
     
 }
 .html:hover{
-    background-color:papayawhip;
+    background-color:moccasin;
 }
 .ani{
     display: flex;
